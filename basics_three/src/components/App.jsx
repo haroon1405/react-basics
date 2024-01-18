@@ -4,7 +4,7 @@ import Main from "./Main";
 
 export default function App(){
     return (
-        <div>
+        <div className="bg-gray-100 pb-[15px]">
             <Header />
             <Main />
         </div>
