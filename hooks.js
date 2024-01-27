@@ -114,7 +114,7 @@ import React, { useContext } from "react";
 import { UserContext } from "./app.jsx";
 
 const Component = () => {
-    const { countState, countDispatch } = useContext(UserContext); // Destructure context
+    const { countState, countDispatch } = useContext(UserContext); 
 
     const handleCountUp = () => {
         countDispatch({
